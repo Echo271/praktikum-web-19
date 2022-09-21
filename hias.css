@@ -1,0 +1,44 @@
+body {
+    width: 75%;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+img {
+    width: 200px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+li {
+    margin-left: 20px;
+}
+
+.news img{
+    width: 400px;
+}
+
+.berita {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}

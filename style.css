@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+}
+
+body {
+    height: 2000px;
+}
+
+.parent {
+    width: 600px;
+    height: 600px;
+    background-color: aqua;
+    margin: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+.kotak1 {
+    background-color: red;
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+}
+
+.kotak2 {
+    background-color: yellow;
+}
+
+.kotak3 {
+    background-color: green;
+}
+
+.kotak4 {
+    background-color: blueviolet;
+}
+
+@media screen and (min-width:240px) and (max-width:480px) {
+    .parent {
+        flex-direction: column;
+    }
+
+    .kotak4 {
+        background-color: darkgreen;
+    }
+}
